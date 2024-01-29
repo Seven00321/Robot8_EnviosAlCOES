@@ -1,0 +1,49 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "existeExcel&Sequence_351",
+        "passwordCoes&Sequence_352",
+        "UserCoes&Sequence_352",
+        "existeExcel&Sequence_349",
+        "passwordCoes&Sequence_350",
+        "UserCoes&Sequence_350",
+        "existeExcel&Sequence_347",
+        "passwordCoes&Sequence_348",
+        "UserCoes&Sequence_348",
+        "existeExcel&Sequence_345",
+        "passwordCoes&Sequence_346",
+        "UserCoes&Sequence_346",
+        "existeExcel&Sequence_343",
+        "passwordCoes&Sequence_344",
+        "UserCoes&Sequence_344",
+        "existeExcel&Sequence_341",
+        "passwordCoes&Sequence_342",
+        "UserCoes&Sequence_342",
+        "existeExcel&Sequence_339",
+        "passwordCoes&Sequence_340",
+        "UserCoes&Sequence_340",
+        "existeExcel&Sequence_337",
+        "passwordCoes&Sequence_338",
+        "UserCoes&Sequence_338",
+        "fechaHoy&Sequence_335",
+        "fechaPosterior&Sequence_335",
+        "horaActual&Sequence_335",
+        "horaActiva&Sequence_335"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
