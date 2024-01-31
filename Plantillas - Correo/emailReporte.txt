@@ -1,0 +1,12 @@
+¡¡Felicitaciones..!!, 
+
+Todos los Datos de Medición y Tensión fueron enviados al COES satisfactoriamente.
+Estos son los datos de cada envio:
+
+{0}
+
+Muchas gracias por su tiempo, tenga buenas noches..!!
+
+
+Saludo cordial,
+Robot de Automatización de Datos al COES — EGEMSA.

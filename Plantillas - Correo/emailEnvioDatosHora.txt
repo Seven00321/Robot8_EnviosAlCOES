@@ -1,0 +1,10 @@
+¡¡Proceso de Envio Satisfactorio..!!, 
+
+Todos los Datos de Medición y Tensión correspondiente a la hora {0} fueron enviados al COES satisfactoriamente.
+
+
+Muchas gracias por su tiempo, tenga un buen dia..!!
+
+
+Saludo cordial,
+Robot de Automatización de Datos al COES — EGEMSA.

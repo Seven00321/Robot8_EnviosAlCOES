@@ -1,0 +1,11 @@
+¡¡Alerta..!!, 
+
+A la Hora {0}. El envio de los Datos de Medición al COES tiene los siguientes problemas:
+
+{1}
+
+por favor, intervenga cuanto antes..!!
+
+
+Saludo cordial,
+Robot de Automatización de Datos al COES — EGEMSA.
