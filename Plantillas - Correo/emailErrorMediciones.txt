@@ -1,10 +1,6 @@
-¡¡Alerta..!!, 
+A la Hora {0}. El sistema de Busqueda de la Pagina de Mediciones al COES no ha sido encontrado.
 
-A la Hora {0}. El envio de los Datos de Medición al COES tiene los siguientes problemas:
-
-{1}
-
-por favor, intervenga cuanto antes..!!
+Por favor, intervenga cuanto antes..!!
 
 
 Saludo cordial,

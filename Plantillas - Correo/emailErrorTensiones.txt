@@ -1,8 +1,4 @@
-¡¡Alerta..!!, 
-
-El envio de los Datos de Tensión al COES tiene los siguientes problemas:
-
-{0}
+A la Hora {0}. El sistema de Busqueda de la Pagina de Tensiones al COES no ha sido encontrado.
 
 Por favor, intervenga cuanto antes..!!
 

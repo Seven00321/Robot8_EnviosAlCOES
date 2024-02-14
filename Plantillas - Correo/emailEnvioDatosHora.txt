@@ -1,5 +1,3 @@
-¡¡Proceso de Envio Satisfactorio..!!, 
-
 Todos los Datos de Medición y Tensión correspondiente a la hora {0} fueron enviados al COES satisfactoriamente.
 
 

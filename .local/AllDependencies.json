@@ -21548,19 +21548,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\practicantetic2\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\ccd\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Prueba de Excel",
       "projectName": "Prueba de Excel",
-      "projectPath": "C:\\Users\\practicantetic2\\Documents\\Ui Path\\Prueba de Excel\\.local",
-      "packagesPath": "C:\\Users\\practicantetic2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\practicantetic2\\Documents\\Ui Path\\Prueba de Excel\\.local",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ]
+      "projectPath": "C:\\Users\\ccd\\Documents\\Ui Path\\Robot8_EnviosAlCOES\\.local",
+      "packagesPath": "C:\\Users\\ccd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ccd\\Documents\\Ui Path\\Robot8_EnviosAlCOES\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -21591,7 +21587,7 @@
             "version": "[23.10.8, 23.10.8]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\practicantetic2\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\ccd\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
