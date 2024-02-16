@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1514,3222" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uasa="clr-namespace:UiPath.Activities.System.Arrays;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1794,3296" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uasa="clr-namespace:UiPath.Activities.System.Arrays;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -138,13 +138,13 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1421,3157" sap2010:WorkflowViewState.IdRef="Sequence_336">
+  <Sequence sap:VirtualizedContainerService.HintSize="1421,3231" sap2010:WorkflowViewState.IdRef="Sequence_336">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="1359,3046" sap2010:WorkflowViewState.IdRef="Sequence_335">
+    <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="1359,3120" sap2010:WorkflowViewState.IdRef="Sequence_335">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="fechaHoy" />
         <Variable x:TypeArguments="x:String" Name="fechaPosterior" />
@@ -164,7 +164,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Declarando Variables Iniciales" sap:VirtualizedContainerService.HintSize="1297,83" sap2010:WorkflowViewState.IdRef="Sequence_216">
+      <Sequence DisplayName="Declarando Variables Iniciales" sap:VirtualizedContainerService.HintSize="1297,81" sap2010:WorkflowViewState.IdRef="Sequence_216">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -212,7 +212,7 @@
           </Assign.Value>
         </Assign>
       </Sequence>
-      <Sequence DisplayName="Importando Plantillas de Correo" sap:VirtualizedContainerService.HintSize="1297,83" sap2010:WorkflowViewState.IdRef="Sequence_572">
+      <Sequence DisplayName="Importando Plantillas de Correo" sap:VirtualizedContainerService.HintSize="1297,81" sap2010:WorkflowViewState.IdRef="Sequence_572">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -225,7 +225,7 @@
         <ui:ReadTextFile File="{x:Null}" Content="[emailErrorTensiones]" DisplayName="Leer emailErrorTensiones" FileName="Plantillas - Correo\emailErrorTensiones.txt" sap:VirtualizedContainerService.HintSize="388,80" sap2010:WorkflowViewState.IdRef="ReadTextFile_4" />
         <ui:ReadTextFile File="{x:Null}" Content="[emailReporte]" DisplayName="Leer emailReporte" FileName="Plantillas - Correo\emailReporte.txt" sap:VirtualizedContainerService.HintSize="388,80" sap2010:WorkflowViewState.IdRef="ReadTextFile_5" />
       </Sequence>
-      <Sequence DisplayName="Declarando Lista de Errores y de Envios" sap:VirtualizedContainerService.HintSize="1297,83" sap2010:WorkflowViewState.IdRef="Sequence_573">
+      <Sequence DisplayName="Declarando Lista de Errores y de Envios" sap:VirtualizedContainerService.HintSize="1297,81" sap2010:WorkflowViewState.IdRef="Sequence_573">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -235,45 +235,45 @@
         <ui:CreateList x:TypeArguments="x:String" DisplayName="Lista de Envios" sap:VirtualizedContainerService.HintSize="388,133" sap2010:WorkflowViewState.IdRef="CreateList`1_1" NewList="[listaDeEnvios]" />
         <ui:CreateList x:TypeArguments="x:String" DisplayName="Lista de Errores" sap:VirtualizedContainerService.HintSize="388,133" sap2010:WorkflowViewState.IdRef="CreateList`1_2" NewList="[listaDeErrores]" />
       </Sequence>
-      <Sequence DisplayName="Tiempos de Envio al COES" sap:VirtualizedContainerService.HintSize="1297,2380" sap2010:WorkflowViewState.IdRef="Sequence_591">
+      <Sequence DisplayName="Tiempos de Envio al COES" sap:VirtualizedContainerService.HintSize="1297,2461" sap2010:WorkflowViewState.IdRef="Sequence_591">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <umab:GmailApplicationCard ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" Account="egemsac@gmail.com" DisplayName="Declarando Gmail y Outlook" EmailAddress="egemsac@gmail.com" sap:VirtualizedContainerService.HintSize="1192,2269" sap2010:WorkflowViewState.IdRef="GmailApplicationCard_1" Timeout="90" UseConnectionService="False">
+        <umab:GmailApplicationCard ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" Account="egemsac@gmail.com" DisplayName="Declarando Gmail y Outlook" EmailAddress="egemsac@gmail.com" sap:VirtualizedContainerService.HintSize="1221,2350" sap2010:WorkflowViewState.IdRef="GmailApplicationCard_1" Timeout="90" UseConnectionService="False">
           <umab:GmailApplicationCard.Body>
             <ActivityAction x:TypeArguments="um:IMailQuickHandle">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="um:IMailQuickHandle" Name="Gmail" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Enviar Correos Respetivos" sap:VirtualizedContainerService.HintSize="1158,2085" sap2010:WorkflowViewState.IdRef="Sequence_630">
+              <Sequence DisplayName="Enviar Correos Respetivos" sap:VirtualizedContainerService.HintSize="1187,2170" sap2010:WorkflowViewState.IdRef="Sequence_630">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:IfElseIf DisplayName="Tiempos de Envio al COES" sap:VirtualizedContainerService.HintSize="1096,1974" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+                <ui:IfElseIf DisplayName="Tiempos de Envio al COES" sap:VirtualizedContainerService.HintSize="1125,2059" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
                   <ui:IfElseIf.ConditionBlocks>
                     <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
                       <ui:IfElseIfBlock BlockType="If" Condition="[3.00&lt;=horaActiva and horaActiva&lt;=3.20]">
                         <ui:IfElseIfBlock.Then>
-                          <Sequence DisplayName="DATA INSTANTANEA de 00 a 03 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_330">
+                          <Sequence DisplayName="DATA INSTANTANEA de 00 a 03 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_330">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence DisplayName="DATA INSTANTANEA de 00 a 03 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,686" sap2010:WorkflowViewState.IdRef="Sequence_627">
+                            <Sequence DisplayName="DATA INSTANTANEA de 00 a 03 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,676" sap2010:WorkflowViewState.IdRef="Sequence_627">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_357">
+                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_357">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -416,7 +416,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_337">
+                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_337">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
@@ -451,7 +451,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
-                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_364">
+                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_364">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -587,7 +587,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Accediendo al COES 00 a 03" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_753">
+                              <Sequence DisplayName="Accediendo al COES 00 a 03" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_753">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1140,7 +1140,7 @@
                                   </uix:NApplicationCard.TargetApp>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Eliminando el Archivo Excel 00-03" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_804">
+                              <Sequence DisplayName="Eliminando el Archivo Excel 00-03" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_804">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
@@ -1150,7 +1150,7 @@
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[existeExcel]" sap:VirtualizedContainerService.HintSize="859,105" sap2010:WorkflowViewState.IdRef="PathExists_19" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 00-03.xls&quot;]" PathType="File">
+                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[existeExcel]" sap:VirtualizedContainerService.HintSize="863,104" sap2010:WorkflowViewState.IdRef="PathExists_19" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 00-03.xls&quot;]" PathType="File">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1158,16 +1158,16 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:PathExists>
-                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="859,91" sap2010:WorkflowViewState.IdRef="WriteLine_23" Text="[existeExcel.ToString]" />
-                                <If Condition="[existeExcel.Equals(True)]" sap:VirtualizedContainerService.HintSize="859,352" sap2010:WorkflowViewState.IdRef="If_21">
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="863,90" sap2010:WorkflowViewState.IdRef="WriteLine_23" Text="[existeExcel.ToString]" />
+                                <If Condition="[existeExcel.Equals(True)]" sap:VirtualizedContainerService.HintSize="863,350" sap2010:WorkflowViewState.IdRef="If_21">
                                   <If.Then>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="376,169" sap2010:WorkflowViewState.IdRef="Sequence_805">
+                                    <Sequence sap:VirtualizedContainerService.HintSize="376,168" sap2010:WorkflowViewState.IdRef="Sequence_805">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="334,81" sap2010:WorkflowViewState.IdRef="DeleteFileX_21" Path="[&quot;Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 00-03.xls&quot;]" />
+                                      <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="334,80" sap2010:WorkflowViewState.IdRef="DeleteFileX_21" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 00-03.xls&quot;]" />
                                     </Sequence>
                                   </If.Then>
                                   <If.Else>
@@ -1181,21 +1181,21 @@
                       </ui:IfElseIfBlock>
                       <ui:IfElseIfBlock BlockType="ElseIf" Condition="[6.00&lt;=horaActiva and horaActiva&lt;=6.20]">
                         <ui:IfElseIfBlock.Then>
-                          <Sequence DisplayName="DATA INSTANTANEA de 03 a 06 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_333">
+                          <Sequence DisplayName="DATA INSTANTANEA de 03 a 06 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_333">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence DisplayName="DATA INSTANTANEA de 03 a 06 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,686" sap2010:WorkflowViewState.IdRef="Sequence_766">
+                            <Sequence DisplayName="DATA INSTANTANEA de 03 a 06 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,676" sap2010:WorkflowViewState.IdRef="Sequence_766">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_383">
+                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_383">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1338,7 +1338,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_339">
+                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_339">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
@@ -1373,7 +1373,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
-                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_390">
+                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_390">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1515,7 +1515,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Accediendo al COES 03 a 06" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_402">
+                              <Sequence DisplayName="Accediendo al COES 03 a 06" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_402">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2084,7 +2084,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Eliminando el Archivo Excel 03-06" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_801">
+                              <Sequence DisplayName="Eliminando el Archivo Excel 03-06" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_801">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
@@ -2094,7 +2094,7 @@
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[existeExcel]" sap:VirtualizedContainerService.HintSize="859,105" sap2010:WorkflowViewState.IdRef="PathExists_18" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 03-06.xls&quot;]" PathType="File">
+                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[existeExcel]" sap:VirtualizedContainerService.HintSize="863,104" sap2010:WorkflowViewState.IdRef="PathExists_18" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 03-06.xls&quot;]" PathType="File">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2102,16 +2102,16 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:PathExists>
-                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="859,91" sap2010:WorkflowViewState.IdRef="WriteLine_22" Text="[existeExcel.ToString]" />
-                                <If Condition="[existeExcel.Equals(True)]" sap:VirtualizedContainerService.HintSize="859,352" sap2010:WorkflowViewState.IdRef="If_20">
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="863,90" sap2010:WorkflowViewState.IdRef="WriteLine_22" Text="[existeExcel.ToString]" />
+                                <If Condition="[existeExcel.Equals(True)]" sap:VirtualizedContainerService.HintSize="863,350" sap2010:WorkflowViewState.IdRef="If_20">
                                   <If.Then>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="376,169" sap2010:WorkflowViewState.IdRef="Sequence_802">
+                                    <Sequence sap:VirtualizedContainerService.HintSize="376,168" sap2010:WorkflowViewState.IdRef="Sequence_802">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="334,81" sap2010:WorkflowViewState.IdRef="DeleteFileX_20" Path="[&quot;Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 03-06.xls&quot;]" />
+                                      <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="334,80" sap2010:WorkflowViewState.IdRef="DeleteFileX_20" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 03-06.xls&quot;]" />
                                     </Sequence>
                                   </If.Then>
                                   <If.Else>
@@ -2125,21 +2125,21 @@
                       </ui:IfElseIfBlock>
                       <ui:IfElseIfBlock BlockType="ElseIf" Condition="[9.00&lt;=horaActiva and horaActiva&lt;=9.20]">
                         <ui:IfElseIfBlock.Then>
-                          <Sequence DisplayName="DATA INSTANTANEA de 06 a 09 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_433">
+                          <Sequence DisplayName="DATA INSTANTANEA de 06 a 09 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,192" sap2010:WorkflowViewState.IdRef="Sequence_433">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence DisplayName="DATA INSTANTANEA de 06 a 09 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,686" sap2010:WorkflowViewState.IdRef="Sequence_618">
+                            <Sequence DisplayName="DATA INSTANTANEA de 06 a 09 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_618">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_615">
+                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="925,81" sap2010:WorkflowViewState.IdRef="Sequence_615">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2282,7 +2282,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_616">
+                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="925,81" sap2010:WorkflowViewState.IdRef="Sequence_616">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
@@ -2310,7 +2310,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
-                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_617">
+                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="925,81" sap2010:WorkflowViewState.IdRef="Sequence_617">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2452,7 +2452,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Accediendo al COES" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_430">
+                              <Sequence DisplayName="Accediendo al COES" sap:VirtualizedContainerService.HintSize="925,81" sap2010:WorkflowViewState.IdRef="Sequence_430">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3036,17 +3036,17 @@
                                   </uix:NApplicationCard.TargetApp>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Eliminando el Archivo Excel 06-09" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_807">
+                              <Sequence DisplayName="Eliminando el Archivo Excel 06-09" sap:VirtualizedContainerService.HintSize="925,735" sap2010:WorkflowViewState.IdRef="Sequence_807">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[existeExcel]" sap:VirtualizedContainerService.HintSize="863,115" sap2010:WorkflowViewState.IdRef="PathExists_20" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 06-09.xls&quot;]" PathType="File" />
+                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[existeExcel]" sap:VirtualizedContainerService.HintSize="863,104" sap2010:WorkflowViewState.IdRef="PathExists_20" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 06-09.xls&quot;]" PathType="File" />
                                 <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="863,90" sap2010:WorkflowViewState.IdRef="WriteLine_24" Text="[existeExcel.ToString]" />
                                 <If Condition="[existeExcel.Equals(True)]" sap:VirtualizedContainerService.HintSize="863,350" sap2010:WorkflowViewState.IdRef="If_22">
                                   <If.Then>
@@ -3056,7 +3056,7 @@
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="334,80" sap2010:WorkflowViewState.IdRef="DeleteFileX_22" Path="[&quot;Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 06-09.xls&quot;]" />
+                                      <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="334,80" sap2010:WorkflowViewState.IdRef="DeleteFileX_22" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 06-09.xls&quot;]" />
                                     </Sequence>
                                   </If.Then>
                                   <If.Else>
@@ -3070,21 +3070,21 @@
                       </ui:IfElseIfBlock>
                       <ui:IfElseIfBlock BlockType="ElseIf" Condition="[12.00&lt;=horaActiva and horaActiva&lt;=12.20]">
                         <ui:IfElseIfBlock.Then>
-                          <Sequence DisplayName="DATA INSTANTANEA de 09 a 12 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_458">
+                          <Sequence DisplayName="DATA INSTANTANEA de 09 a 12 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_458">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence DisplayName="DATA INSTANTANEA de 09 a 12 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,686" sap2010:WorkflowViewState.IdRef="Sequence_596">
+                            <Sequence DisplayName="DATA INSTANTANEA de 09 a 12 y Exportarlo" sap:VirtualizedContainerService.HintSize="987,1330" sap2010:WorkflowViewState.IdRef="Sequence_596">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_600">
+                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="925,81" sap2010:WorkflowViewState.IdRef="Sequence_600">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3233,7 +3233,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_602">
+                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="925,81" sap2010:WorkflowViewState.IdRef="Sequence_602">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
@@ -3261,7 +3261,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
-                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_604">
+                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="925,81" sap2010:WorkflowViewState.IdRef="Sequence_604">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3409,7 +3409,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Accediendo al COES 09 a 12" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_455">
+                              <Sequence DisplayName="Accediendo al COES 09 a 12" sap:VirtualizedContainerService.HintSize="925,81" sap2010:WorkflowViewState.IdRef="Sequence_455">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3990,17 +3990,17 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Eliminando el Archivo Excel 09-12" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_810">
+                              <Sequence DisplayName="Eliminando el Archivo Excel 09-12" sap:VirtualizedContainerService.HintSize="925,735" sap2010:WorkflowViewState.IdRef="Sequence_810">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[existeExcel]" sap:VirtualizedContainerService.HintSize="863,115" sap2010:WorkflowViewState.IdRef="PathExists_21" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 09-12.xls&quot;]" PathType="File" />
+                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[existeExcel]" sap:VirtualizedContainerService.HintSize="863,104" sap2010:WorkflowViewState.IdRef="PathExists_21" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 09-12.xls&quot;]" PathType="File" />
                                 <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="863,90" sap2010:WorkflowViewState.IdRef="WriteLine_25" Text="[existeExcel.ToString]" />
                                 <If Condition="[existeExcel.Equals(True)]" sap:VirtualizedContainerService.HintSize="863,350" sap2010:WorkflowViewState.IdRef="If_23">
                                   <If.Then>
@@ -4024,21 +4024,21 @@
                       </ui:IfElseIfBlock>
                       <ui:IfElseIfBlock BlockType="ElseIf" Condition="[15.00&lt;=horaActiva and horaActiva&lt;=15.20]">
                         <ui:IfElseIfBlock.Then>
-                          <Sequence DisplayName="DATA INSTANTANEA de 12 a 15 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_483">
+                          <Sequence DisplayName="DATA INSTANTANEA de 12 a 15 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_483">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence DisplayName="DATA INSTANTANEA de 12 a 15 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,686" sap2010:WorkflowViewState.IdRef="Sequence_651">
+                            <Sequence DisplayName="DATA INSTANTANEA de 12 a 15 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,676" sap2010:WorkflowViewState.IdRef="Sequence_651">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_463">
+                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_463">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -4175,7 +4175,7 @@
                                   </uix:NApplicationCard.TargetApp>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_345">
+                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_345">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
@@ -4203,7 +4203,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
-                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_470">
+                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_470">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -4351,7 +4351,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Accediendo al COES 12 a 15" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_480">
+                              <Sequence DisplayName="Accediendo al COES 12 a 15" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_480">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -4522,7 +4522,7 @@
                                                           <uix:NClick.Target>
                                                             <uix:TargetAnchorable CvElementArea="519, 998, 77, 27" CvTextArea="530, 1005, 53, 12" CvTextArgument="GRUPOS" CvType="Button" DesignTimeRectangle="520, 998, 75, 28" DesignTimeScaleFactor="1" FriendlyName="'Pestaña Hoja GRUPOS'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja GRUPOS' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja GRUPOS' role='elemento de la pestaña' check:fulltext='Pestaña Hoja GRUPOS' /&gt;" Guid="e770c5e5-10ee-403d-a5df-84bab99d4478" InformativeScreenshot="b45ca333d94cf4707e4010c2084c63b3.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-15 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                                               <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                   <uix:Target CvElementArea="380, 997, 141, 27" CvTextArea="391, 1004, 118, 13" CvTextArgument="Presentation Sheet" CvType="Button" DesignTimeRectangle="380, 998, 140, 28" FriendlyName="'Pestaña Hoja'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja Presentation Sheet' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja Presentation Sheet' role='elemento de la pestaña' check:fulltext='Pestaña Hoja Presentation Sheet' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                                                                 </scg:List>
                                                               </uix:TargetAnchorable.Anchors>
@@ -4533,7 +4533,7 @@
                                                           <uix:NClick.Target>
                                                             <uix:TargetAnchorable CvTextArea="470, 265, 78, 15" CvTextArgument="21.24029102" CvType="Text" DesignTimeRectangle="466, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'21.24029102'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="f3be5900-6883-483b-869c-2574b52df327" ImageBase64="" InformativeScreenshot="c986a5944477e23deccc6a0c32d258d5.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-15 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                               <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                   <uix:Target CvTextArea="467, 230, 73, 14" CvTextArgument="MW tot G1" CvType="Text" DesignTimeRectangle="466, 228, 84, 20" FriendlyName="'MW tot G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='MW tot G1' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                                                                 </scg:List>
                                                               </uix:TargetAnchorable.Anchors>
@@ -4544,7 +4544,7 @@
                                                           <uix:NKeyboardShortcuts.Target>
                                                             <uix:TargetAnchorable CvTextArea="470, 265, 78, 15" CvTextArgument="21.24029102" CvType="Text" DesignTimeRectangle="466, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'21.24029102'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="3c35726d-8b28-47aa-ae07-ef2034d67818" InformativeScreenshot="c986a5944477e23deccc6a0c32d258d5.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-15 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                               <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                   <uix:Target CvTextArea="467, 230, 73, 14" CvTextArgument="MW tot G1" CvType="Text" DesignTimeRectangle="466, 228, 84, 20" FriendlyName="'MW tot G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='MW tot G1' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                                                                 </scg:List>
                                                               </uix:TargetAnchorable.Anchors>
@@ -4555,7 +4555,7 @@
                                                           <uix:NKeyboardShortcuts.Target>
                                                             <uix:TargetAnchorable CvTextArea="470, 265, 78, 15" CvTextArgument="21.24029102" CvType="Text" DesignTimeRectangle="466, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'21.24029102'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="2ae870fc-5135-4798-9c1a-79994f4a7ab3" InformativeScreenshot="c986a5944477e23deccc6a0c32d258d5.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-15 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                               <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                   <uix:Target CvTextArea="467, 230, 73, 14" CvTextArgument="MW tot G1" CvType="Text" DesignTimeRectangle="466, 228, 84, 20" FriendlyName="'MW tot G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='MW tot G1' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                                                                 </scg:List>
                                                               </uix:TargetAnchorable.Anchors>
@@ -4926,7 +4926,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Eliminando el Archivo Excel 12-15" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_813">
+                              <Sequence DisplayName="Eliminando el Archivo Excel 12-15" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_813">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
@@ -4936,7 +4936,7 @@
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[existeExcel]" sap:VirtualizedContainerService.HintSize="863,115" sap2010:WorkflowViewState.IdRef="PathExists_22" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 12-15.xls&quot;]" PathType="File" />
+                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[existeExcel]" sap:VirtualizedContainerService.HintSize="863,104" sap2010:WorkflowViewState.IdRef="PathExists_22" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 12-15.xls&quot;]" PathType="File" />
                                 <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="863,90" sap2010:WorkflowViewState.IdRef="WriteLine_26" Text="[existeExcel.ToString]" />
                                 <If Condition="[existeExcel.Equals(True)]" sap:VirtualizedContainerService.HintSize="863,350" sap2010:WorkflowViewState.IdRef="If_24">
                                   <If.Then>
@@ -4946,7 +4946,7 @@
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="334,80" sap2010:WorkflowViewState.IdRef="DeleteFileX_24" Path="[&quot;Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 12-15.xls&quot;]" />
+                                      <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="334,80" sap2010:WorkflowViewState.IdRef="DeleteFileX_24" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 12-15.xls&quot;]" />
                                     </Sequence>
                                   </If.Then>
                                   <If.Else>
@@ -4960,21 +4960,21 @@
                       </ui:IfElseIfBlock>
                       <ui:IfElseIfBlock BlockType="ElseIf" Condition="[18.00&lt;=horaActiva and horaActiva&lt;=18.20]">
                         <ui:IfElseIfBlock.Then>
-                          <Sequence DisplayName="DATA INSTANTANEA de 15 a 18 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_508">
+                          <Sequence DisplayName="DATA INSTANTANEA de 15 a 18 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_508">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence DisplayName="DATA INSTANTANEA de 15 a 18 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,686" sap2010:WorkflowViewState.IdRef="Sequence_605">
+                            <Sequence DisplayName="DATA INSTANTANEA de 15 a 18 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,676" sap2010:WorkflowViewState.IdRef="Sequence_605">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_488">
+                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_488">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -5105,7 +5105,7 @@
                                   </uix:NApplicationCard.TargetApp>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_606">
+                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_606">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
@@ -5140,7 +5140,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
-                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_614">
+                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_614">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -5288,7 +5288,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Accediendo al COES 15 a 18" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_505">
+                              <Sequence DisplayName="Accediendo al COES 15 a 18" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_505">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -5454,7 +5454,7 @@
                                                           <uix:NClick.Target>
                                                             <uix:TargetAnchorable CvElementArea="247, 998, 77, 27" CvTextArea="258, 1005, 53, 12" CvTextArgument="GRUPOS" CvType="Button" DesignTimeRectangle="248, 998, 75, 28" DesignTimeScaleFactor="1" FriendlyName="'Pestaña Hoja GRUPOS'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - *- 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja GRUPOS' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja GRUPOS' role='elemento de la pestaña' check:fulltext='Pestaña Hoja GRUPOS' /&gt;" Guid="b090c5cb-8b3d-4624-96c1-bc9ed01a622e" ImageBase64="" InformativeScreenshot="2d0e9da2056b473296e1aee81a0f7db1.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                                               <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                   <uix:Target CvElementArea="108, 997, 141, 27" CvTextArea="119, 1004, 118, 13" CvTextArgument="Presentation Sheet" CvType="Button" DesignTimeRectangle="108, 998, 140, 28" FriendlyName="'Pestaña Hoja'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - 2024-02-14 - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - 2024-02-14 - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja Presentation Sheet' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - 2024-02-14 - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - 2024-02-14 - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja Presentation Sheet' role='elemento de la pestaña' check:fulltext='Pestaña Hoja Presentation Sheet' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                                                                 </scg:List>
                                                               </uix:TargetAnchorable.Anchors>
@@ -5465,7 +5465,7 @@
                                                           <uix:NClick.Target>
                                                             <uix:TargetAnchorable CvTextArea="199, 326, 76, 13" CvTextArgument="2" CvType="Text" DesignTimeRectangle="194, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'20.09691211'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - 2024-02-14 - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - 2024-02-14 - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="9cba2ec9-81a1-4959-aaa3-6c549af7ff44" ImageBase64="" InformativeScreenshot="6cfa5b9ff2d4ea818a3c6545e9c583fa.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                                                               <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                   <uix:Target CvTextArea="195, 230, 73, 14" CvTextArgument="MW tot G1" CvType="Text" DesignTimeRectangle="194, 228, 84, 20" FriendlyName="'MW tot G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 15-18.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 15-18' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 15-18.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 15-18' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='MW tot G1' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                                                                 </scg:List>
                                                               </uix:TargetAnchorable.Anchors>
@@ -5476,7 +5476,7 @@
                                                           <uix:NKeyboardShortcuts.Target>
                                                             <uix:TargetAnchorable CvTextArea="199, 326, 76, 13" CvTextArgument="20.09691211" CvType="Text" DesignTimeRectangle="194, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'20.09691211'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="6c73f4f9-5d22-4c55-a9f4-af48bfaa07e2" ImageBase64="" InformativeScreenshot="b5756d42bdbf6cf804c5e9df15d4855a.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                               <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                   <uix:Target CvTextArea="195, 290, 73, 14" CvTextArgument="MW tot G1" CvType="Text" DesignTimeRectangle="194, 228, 84, 20" FriendlyName="'MW tot G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='MW tot G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                                 </scg:List>
                                                               </uix:TargetAnchorable.Anchors>
@@ -5487,7 +5487,7 @@
                                                           <uix:NKeyboardShortcuts.Target>
                                                             <uix:TargetAnchorable CvTextArea="199, 326, 76, 13" CvTextArgument="20.09691211" CvType="Text" DesignTimeRectangle="194, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'20.09691211'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="43822ba8-b46c-4396-a724-5f8f99a41357" ImageBase64="" InformativeScreenshot="b5756d42bdbf6cf804c5e9df15d4855a.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                               <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                   <uix:Target CvTextArea="195, 290, 73, 14" CvTextArgument="MW tot G1" CvType="Text" DesignTimeRectangle="194, 228, 84, 20" FriendlyName="'MW tot G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='MW tot G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                                 </scg:List>
                                                               </uix:TargetAnchorable.Anchors>
@@ -5665,7 +5665,7 @@
                                                           <uix:NClick.Target>
                                                             <uix:TargetAnchorable CvElementArea="392, 996, 97, 27" CvTextArea="403, 1004, 73, 13" CvTextArgument="TENSIONES" CvType="Button" DesignTimeRectangle="665, 998, 94, 28" DesignTimeScaleFactor="1" FriendlyName="'Pestaña Hoja TENSIONES'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja TENSIONES' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja TENSIONES' role='elemento de la pestaña' check:fulltext='Pestaña Hoja TENSIONES' /&gt;" Guid="6f9f9774-f5cc-4551-8d70-53be3f4be333" ImageBase64="" InformativeScreenshot="f2465ff570fe3421cd7dc733c81221b6.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                                               <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                   <uix:Target CvElementArea="323, 998, 70, 25" CvTextArea="335, 1005, 44, 12" CvTextArgument="FLUJOS" CvType="Button" DesignTimeRectangle="595, 998, 70, 28" FriendlyName="'Pestaña Hoja FLUJOS'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja FLUJOS' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja FLUJOS' role='elemento de la pestaña' check:fulltext='Pestaña Hoja FLUJOS' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                                 </scg:List>
                                                               </uix:TargetAnchorable.Anchors>
@@ -5676,7 +5676,7 @@
                                                           <uix:NClick.Target>
                                                             <uix:TargetAnchorable CvTextArea="207, 326, 74, 14" CvTextArgument="13.89556641" CvType="Text" DesignTimeRectangle="473, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'13.89556641'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="3eb70adf-14e7-4568-bf82-7f1ecc9f1a9d" ImageBase64="" InformativeScreenshot="f81e7b3fe53b0ac8602c7da3c56e25d6.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                               <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                   <uix:Target CvTextArea="201, 290, 72, 14" CvTextArgument="VII avg G1" CvType="Text" DesignTimeRectangle="473, 228, 84, 20" FriendlyName="'Vll avg G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='Vll avg G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                                 </scg:List>
                                                               </uix:TargetAnchorable.Anchors>
@@ -5687,7 +5687,7 @@
                                                           <uix:NKeyboardShortcuts.Target>
                                                             <uix:TargetAnchorable CvTextArea="207, 326, 74, 14" CvTextArgument="13.89556641" CvType="Text" DesignTimeRectangle="473, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'13.89556641'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="3d46fbf4-c8a1-4aea-a727-31c1a80f0a66" ImageBase64="" InformativeScreenshot="f81e7b3fe53b0ac8602c7da3c56e25d6.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                               <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                   <uix:Target CvTextArea="201, 290, 72, 14" CvTextArgument="VII avg G1" CvType="Text" DesignTimeRectangle="473, 228, 84, 20" FriendlyName="'Vll avg G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='Vll avg G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                                 </scg:List>
                                                               </uix:TargetAnchorable.Anchors>
@@ -5698,7 +5698,7 @@
                                                           <uix:NKeyboardShortcuts.Target>
                                                             <uix:TargetAnchorable CvTextArea="207, 326, 74, 14" CvTextArgument="13.89556641" CvType="Text" DesignTimeRectangle="473, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'13.89556641'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="b527b86f-d242-4cec-a67a-a6eae08ca5e8" ImageBase64="" InformativeScreenshot="f81e7b3fe53b0ac8602c7da3c56e25d6.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                               <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                   <uix:Target CvTextArea="201, 290, 72, 14" CvTextArgument="VII avg G1" CvType="Text" DesignTimeRectangle="473, 228, 84, 20" FriendlyName="'Vll avg G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='Vll avg G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                                 </scg:List>
                                                               </uix:TargetAnchorable.Anchors>
@@ -5857,7 +5857,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Eliminando el Archivo Excel 15-18" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_816">
+                              <Sequence DisplayName="Eliminando el Archivo Excel 15-18" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_816">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
@@ -5898,21 +5898,21 @@
                       </ui:IfElseIfBlock>
                       <ui:IfElseIfBlock BlockType="ElseIf" Condition="[21.00&lt;=horaActiva and horaActiva&lt;=21.20]">
                         <ui:IfElseIfBlock.Then>
-                          <Sequence DisplayName="DATA INSTANTANEA de 18 a 21 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_533">
+                          <Sequence DisplayName="DATA INSTANTANEA de 18 a 21 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_533">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence DisplayName="DATA INSTANTANEA de 18 a 21 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,563" sap2010:WorkflowViewState.IdRef="Sequence_703">
+                            <Sequence DisplayName="DATA INSTANTANEA de 18 a 21 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,676" sap2010:WorkflowViewState.IdRef="Sequence_703">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_513">
+                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_513">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -6049,7 +6049,7 @@
                                   </uix:NApplicationCard.TargetApp>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_349">
+                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_349">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
@@ -6077,7 +6077,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
-                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_520">
+                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_520">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -6225,26 +6225,26 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Accediendo al COES 18 a 21" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_530">
+                              <Sequence DisplayName="Accediendo al COES 18 a 21" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_530">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: DATA INSTANTANEA - 2024-01-12 - 00-03.xls  [Modo de compatibilidad] - Excel" sap:VirtualizedContainerService.HintSize="609,1118" sap2010:WorkflowViewState.IdRef="NApplicationCard_89" ScopeGuid="d7f21464-d6d1-496a-8f19-e3693c1c06df" Version="V2">
+                                <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: DATA INSTANTANEA - 2024-01-12 - 00-03.xls  [Modo de compatibilidad] - Excel" sap:VirtualizedContainerService.HintSize="580,1067" sap2010:WorkflowViewState.IdRef="NApplicationCard_89" ScopeGuid="d7f21464-d6d1-496a-8f19-e3693c1c06df" Version="V2">
                                   <uix:NApplicationCard.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                       </ActivityAction.Argument>
-                                      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: coes.org.pe/extranet/WebForm/Account/Login.aspx" sap:VirtualizedContainerService.HintSize="546,785" sap2010:WorkflowViewState.IdRef="NApplicationCard_91" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="b447be14-3b19-4065-ad6f-b3ee0f9a1bfd" Version="V2" WindowResize="Maximize">
+                                      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: coes.org.pe/extranet/WebForm/Account/Login.aspx" sap:VirtualizedContainerService.HintSize="546,776" sap2010:WorkflowViewState.IdRef="NApplicationCard_91" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="b447be14-3b19-4065-ad6f-b3ee0f9a1bfd" Version="V2" WindowResize="Maximize">
                                         <uix:NApplicationCard.Body>
                                           <ActivityAction x:TypeArguments="x:Object">
                                             <ActivityAction.Argument>
                                               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                             </ActivityAction.Argument>
-                                            <Sequence DisplayName="Acceso al COES" sap:VirtualizedContainerService.HintSize="512,567" sap2010:WorkflowViewState.IdRef="Sequence_350">
+                                            <Sequence DisplayName="Acceso al COES" sap:VirtualizedContainerService.HintSize="512,559" sap2010:WorkflowViewState.IdRef="Sequence_350">
                                               <Sequence.Variables>
                                                 <Variable x:TypeArguments="x:String" Default="OjTuXh" Name="passwordCoes" />
                                                 <Variable x:TypeArguments="x:String" Default="ccd@egemsa.com.pe" Name="UserCoes" />
@@ -6255,7 +6255,7 @@
                                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <Sequence DisplayName="Para Iniciar Sesion" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_521">
+                                              <Sequence DisplayName="Para Iniciar Sesion" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_521">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -6290,7 +6290,7 @@
                                                   </uix:NClick.Target>
                                                 </uix:NClick>
                                               </Sequence>
-                                              <Sequence DisplayName="Para Mediciones" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_524">
+                                              <Sequence DisplayName="Para Mediciones" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_524">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -6384,7 +6384,7 @@
                                                         <uix:NClick.Target>
                                                           <uix:TargetAnchorable CvElementArea="247, 998, 77, 27" CvTextArea="258, 1005, 53, 12" CvTextArgument="GRUPOS" CvType="Button" DesignTimeRectangle="248, 998, 75, 28" DesignTimeScaleFactor="1" FriendlyName="'Pestaña Hoja GRUPOS'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja GRUPOS' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja GRUPOS' role='elemento de la pestaña' check:fulltext='Pestaña Hoja GRUPOS' /&gt;" Guid="ad1ff8aa-e41a-4fc6-b04b-b84278a65bd1" ImageBase64="" InformativeScreenshot="2d0e9da2056b473296e1aee81a0f7db1.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvElementArea="108, 997, 141, 27" CvTextArea="119, 1004, 118, 13" CvTextArgument="Presentation Sheet" CvType="Button" DesignTimeRectangle="108, 998, 140, 28" FriendlyName="'Pestaña Hoja'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja Presentation Sheet' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja Presentation Sheet' role='elemento de la pestaña' check:fulltext='Pestaña Hoja Presentation Sheet' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -6395,7 +6395,7 @@
                                                         <uix:NClick.Target>
                                                           <uix:TargetAnchorable CvTextArea="199, 326, 76, 13" CvTextArgument="20.09691211" CvType="Text" DesignTimeRectangle="194, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'20.09691211'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="4cd43150-16af-4487-948a-b4ee442ecfc9" ImageBase64="" InformativeScreenshot="b5756d42bdbf6cf804c5e9df15d4855a.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvTextArea="195, 290, 73, 14" CvTextArgument="MW tot G1" CvType="Text" DesignTimeRectangle="194, 228, 84, 20" FriendlyName="'MW tot G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='MW tot G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -6406,7 +6406,7 @@
                                                         <uix:NKeyboardShortcuts.Target>
                                                           <uix:TargetAnchorable CvTextArea="199, 326, 76, 13" CvTextArgument="20.09691211" CvType="Text" DesignTimeRectangle="194, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'20.09691211'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="0ca15070-a634-49a7-8b9f-b4682ed7c785" ImageBase64="" InformativeScreenshot="b5756d42bdbf6cf804c5e9df15d4855a.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvTextArea="195, 290, 73, 14" CvTextArgument="MW tot G1" CvType="Text" DesignTimeRectangle="194, 228, 84, 20" FriendlyName="'MW tot G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='MW tot G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -6417,7 +6417,7 @@
                                                         <uix:NKeyboardShortcuts.Target>
                                                           <uix:TargetAnchorable CvTextArea="199, 326, 76, 13" CvTextArgument="20.09691211" CvType="Text" DesignTimeRectangle="194, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'20.09691211'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="6b574899-8868-4de0-a5dc-c6856f8102db" ImageBase64="" InformativeScreenshot="b5756d42bdbf6cf804c5e9df15d4855a.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvTextArea="195, 290, 73, 14" CvTextArgument="MW tot G1" CvType="Text" DesignTimeRectangle="194, 228, 84, 20" FriendlyName="'MW tot G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 18-21.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 18-21' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='MW tot G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -6521,7 +6521,7 @@
                                                   </TryCatch.Catches>
                                                 </TryCatch>
                                               </Sequence>
-                                              <Sequence DisplayName="Para Tensiones" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_529">
+                                              <Sequence DisplayName="Para Tensiones" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_529">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -6601,7 +6601,7 @@
                                                         <uix:NClick.Target>
                                                           <uix:TargetAnchorable CvElementArea="393, 1000, 93, 24" CvTextArea="404, 1005, 70, 12" CvTextArgument="TENSIONES" CvType="Button" DesignTimeRectangle="665, 998, 94, 28" DesignTimeScaleFactor="1" FriendlyName="'Pestaña Hoja TENSIONES'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja TENSIONES' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja TENSIONES' role='elemento de la pestaña' check:fulltext='Pestaña Hoja TENSIONES' /&gt;" Guid="39343a05-9b35-4050-bf51-5219a4acaffc" ImageBase64="" InformativeScreenshot="407236db6177fa4491b9b13d15ac1823.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvElementArea="323, 998, 70, 26" CvTextArea="335, 1005, 44, 12" CvTextArgument="FLUJOS" CvType="Button" DesignTimeRectangle="595, 998, 70, 28" FriendlyName="'Pestaña Hoja FLUJOS'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA -  - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja FLUJOS' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja FLUJOS' role='elemento de la pestaña' check:fulltext='Pestaña Hoja FLUJOS' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -6612,7 +6612,7 @@
                                                         <uix:NClick.Target>
                                                           <uix:TargetAnchorable CvTextArea="207, 326, 74, 14" CvTextArgument="13.89556641" CvType="Text" DesignTimeRectangle="473, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'13.89556641'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="1e65b148-94ee-48f6-8a01-0bbd964ed4c5" ImageBase64="" InformativeScreenshot="f81e7b3fe53b0ac8602c7da3c56e25d6.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvTextArea="201, 290, 72, 14" CvTextArgument="VII avg G1" CvType="Text" DesignTimeRectangle="473, 228, 84, 20" FriendlyName="'Vll avg G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='Vll avg G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -6623,7 +6623,7 @@
                                                         <uix:NKeyboardShortcuts.Target>
                                                           <uix:TargetAnchorable CvTextArea="207, 326, 74, 14" CvTextArgument="13.89556641" CvType="Text" DesignTimeRectangle="473, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'13.89556641'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="3d249bf2-a55a-48ce-921d-956b5b3854d8" ImageBase64="" InformativeScreenshot="f81e7b3fe53b0ac8602c7da3c56e25d6.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvTextArea="201, 290, 72, 14" CvTextArgument="VII avg G1" CvType="Text" DesignTimeRectangle="473, 228, 84, 20" FriendlyName="'Vll avg G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='Vll avg G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -6634,7 +6634,7 @@
                                                         <uix:NKeyboardShortcuts.Target>
                                                           <uix:TargetAnchorable CvTextArea="207, 326, 74, 14" CvTextArgument="13.89556641" CvType="Text" DesignTimeRectangle="473, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'13.89556641'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="814e6ee0-d9cb-4419-95a7-716aa99a8fca" ImageBase64="" InformativeScreenshot="3ca352412a0e157eb2879ac73aefb39d.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvTextArea="201, 290, 72, 14" CvTextArgument="VII avg G1" CvType="Text" DesignTimeRectangle="473, 228, 84, 20" FriendlyName="'Vll avg G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='Vll avg G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -6749,7 +6749,7 @@
                                                   </TryCatch.Catches>
                                                 </TryCatch>
                                               </Sequence>
-                                              <Sequence DisplayName="Enviando Email de Confirmación" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_708">
+                                              <Sequence DisplayName="Enviando Email de Confirmación" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_708">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -6798,27 +6798,55 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
+                              <Sequence DisplayName="Eliminado el Archivo Excel 18-21" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_819">
+                                <Sequence.Variables>
+                                  <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
+                                </Sequence.Variables>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[existeExcel]" sap:VirtualizedContainerService.HintSize="863,104" sap2010:WorkflowViewState.IdRef="PathExists_24" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 18-21.xls&quot;]" PathType="File" />
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="863,90" sap2010:WorkflowViewState.IdRef="WriteLine_28" Text="[existeExcel.ToString]" />
+                                <If Condition="[existeExcel.Equals(True)]" sap:VirtualizedContainerService.HintSize="863,350" sap2010:WorkflowViewState.IdRef="If_26">
+                                  <If.Then>
+                                    <Sequence sap:VirtualizedContainerService.HintSize="376,168" sap2010:WorkflowViewState.IdRef="Sequence_821">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="334,80" sap2010:WorkflowViewState.IdRef="DeleteFileX_26" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaHoy+&quot; - 18-21.xls&quot;]" />
+                                    </Sequence>
+                                  </If.Then>
+                                  <If.Else>
+                                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_822" />
+                                  </If.Else>
+                                </If>
+                              </Sequence>
                             </Sequence>
                           </Sequence>
                         </ui:IfElseIfBlock.Then>
                       </ui:IfElseIfBlock>
                       <ui:IfElseIfBlock BlockType="ElseIf" Condition="[0.00&lt;=horaActiva and horaActiva&lt;=0.20]">
                         <ui:IfElseIfBlock.Then>
-                          <Sequence DisplayName="DATA INSTANTANEA de 21 a 00 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_560">
+                          <Sequence DisplayName="DATA INSTANTANEA de 21 a 00 y Exportarlo" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_560">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence DisplayName="DATA INSTANTANEA de 21 a 00 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,563" sap2010:WorkflowViewState.IdRef="Sequence_716">
+                            <Sequence DisplayName="DATA INSTANTANEA de 21 a 00 y Exportarlo" sap:VirtualizedContainerService.HintSize="512,676" sap2010:WorkflowViewState.IdRef="Sequence_716">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_713">
+                              <Sequence DisplayName="Buscando en ION Reporter" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_713">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -6950,7 +6978,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_351">
+                              <Sequence DisplayName="Si existe el Archivo Excel" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_351">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
                                 </Sequence.Variables>
@@ -6978,7 +7006,7 @@
                                   </If.Else>
                                 </If>
                               </Sequence>
-                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_545">
+                              <Sequence DisplayName="Guardando Archivo Excel" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_545">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -7126,7 +7154,7 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
-                              <Sequence DisplayName="Accediendo al COES 21 a 00" sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_557">
+                              <Sequence DisplayName="Accediendo al COES 21 a 00" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_557">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -7285,7 +7313,7 @@
                                                         <uix:NClick.Target>
                                                           <uix:TargetAnchorable CvElementArea="520, 997, 76, 26" CvTextArea="530, 1004, 54, 13" CvTextArgument="GRUPOS" CvType="Button" DesignTimeRectangle="520, 998, 75, 28" DesignTimeScaleFactor="1" FriendlyName="'Pestaña Hoja GRUPOS'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja GRUPOS' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja GRUPOS' role='elemento de la pestaña' check:fulltext='Pestaña Hoja GRUPOS' /&gt;" Guid="dca546f2-ad00-4c73-a49f-368236d11deb" InformativeScreenshot="cad6cc1ceb196cc768b12e449a1dfe45.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 21-00.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvElementArea="379, 997, 142, 27" CvTextArea="395, 1004, 110, 13" CvTextArgument="Presentation Sheet" CvType="Button" DesignTimeRectangle="380, 998, 140, 28" FriendlyName="'Pestaña Hoja'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja Presentation Sheet' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja Presentation Sheet' role='elemento de la pestaña' check:fulltext='Pestaña Hoja Presentation Sheet' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -7296,7 +7324,7 @@
                                                         <uix:NClick.Target>
                                                           <uix:TargetAnchorable CvTextArea="199, 326, 76, 13" CvTextArgument="2" CvType="Text" DesignTimeRectangle="466, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'20.09691211'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="c34c2bab-5087-4153-ba21-f745890d55bd" ImageBase64="" InformativeScreenshot="f1b06fe5a95710b7db5b293920c19bfc.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvTextArea="195, 290, 73, 14" CvTextArgument="MW tot G1" CvType="Text" DesignTimeRectangle="466, 228, 84, 20" FriendlyName="'MW tot G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - 2024-02-14 - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='MW tot G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -7307,7 +7335,7 @@
                                                         <uix:NKeyboardShortcuts.Target>
                                                           <uix:TargetAnchorable CvTextArea="199, 326, 76, 13" CvTextArgument="20.09691211" CvType="Text" DesignTimeRectangle="466, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'20.09691211'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - 2024-02-14 - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - 2024-02-14 - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="245c2a75-caab-4d9e-8359-96326bd8b58b" ImageBase64="" InformativeScreenshot="f1b06fe5a95710b7db5b293920c19bfc.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvTextArea="195, 290, 73, 14" CvTextArgument="MW tot G1" CvType="Text" DesignTimeRectangle="466, 228, 84, 20" FriendlyName="'MW tot G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='MW tot G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -7318,7 +7346,7 @@
                                                         <uix:NKeyboardShortcuts.Target>
                                                           <uix:TargetAnchorable CvTextArea="199, 326, 76, 13" CvTextArgument="20.09691211" CvType="Text" DesignTimeRectangle="466, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'20.09691211'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - 2024-02-14 - 12-15.xls' cls='ExcelGrid' name='DATA INSTANTANEA - 2024-02-14 - 12-15' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="45d7e436-cca8-4fc3-bc25-8d2f2ee161ab" ImageBase64="" InformativeScreenshot="f1b06fe5a95710b7db5b293920c19bfc.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvTextArea="195, 290, 73, 14" CvTextArgument="MW tot G1" CvType="Text" DesignTimeRectangle="466, 228, 84, 20" FriendlyName="'MW tot G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='2' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='MW tot G1' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -7495,7 +7523,7 @@
                                                         <uix:NClick.Target>
                                                           <uix:TargetAnchorable CvElementArea="393, 1000, 93, 24" CvTextArea="404, 1005, 70, 12" CvTextArgument="TENSIONES" CvType="Button" DesignTimeRectangle="665, 998, 94, 28" DesignTimeScaleFactor="1" FriendlyName="'Pestaña Hoja TENSIONES'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja TENSIONES' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja TENSIONES' role='elemento de la pestaña' check:fulltext='Pestaña Hoja TENSIONES' /&gt;" Guid="0000d148-4238-4f45-83fe-626ec32adadb" ImageBase64="" InformativeScreenshot="a46b0f0c784851ef9e9b14f89b8aad81.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 12-15.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvElementArea="323, 998, 70, 26" CvTextArea="335, 1005, 44, 12" CvTextArgument="FLUJOS" CvType="Button" DesignTimeRectangle="595, 998, 70, 28" FriendlyName="'Pestaña Hoja FLUJOS'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja FLUJOS' role='elemento de la pestaña' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='SheetTab' name='Pestaña Hoja FLUJOS' role='elemento de la pestaña' check:fulltext='Pestaña Hoja FLUJOS' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -7506,7 +7534,7 @@
                                                         <uix:NClick.Target>
                                                           <uix:TargetAnchorable CvTextArea="479, 266, 75, 14" CvTextArgument="13.89901953" CvType="Text" DesignTimeRectangle="473, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'13.89901953'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="f7dce668-4220-41a6-b53f-ca20200ea908" InformativeScreenshot="f81e7b3fe53b0ac8602c7da3c56e25d6.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 21-00.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvTextArea="473, 230, 72, 14" CvTextArgument="VII avg G1" CvType="Text" DesignTimeRectangle="473, 228, 84, 20" FriendlyName="'Vll avg G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='Vll avg G1' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -7517,7 +7545,7 @@
                                                         <uix:NKeyboardShortcuts.Target>
                                                           <uix:TargetAnchorable CvTextArea="479, 266, 75, 14" CvTextArgument="13.89901953" CvType="Text" DesignTimeRectangle="473, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'13.89901953'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="910f5a86-8891-4de3-9e54-0e3e8675605e" InformativeScreenshot="f81e7b3fe53b0ac8602c7da3c56e25d6.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 21-00.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvTextArea="473, 230, 72, 14" CvTextArgument="VII avg G1" CvType="Text" DesignTimeRectangle="473, 228, 84, 20" FriendlyName="'Vll avg G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='Vll avg G1' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -7528,7 +7556,7 @@
                                                         <uix:NKeyboardShortcuts.Target>
                                                           <uix:TargetAnchorable CvTextArea="479, 266, 75, 14" CvTextArgument="13.89901953" CvType="Text" DesignTimeRectangle="473, 265, 84, 17" DesignTimeScaleFactor="1" FriendlyName="'13.89901953'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel inferior' role='cuadrícula de datos' /&gt;&lt;uia name='C3' role='elemento' automationid='' /&gt;" Guid="319f45f0-ca87-4f1e-86cf-111421c05587" InformativeScreenshot="3e354ffff023585a89823f1f6064c65c.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='DATA INSTANTANEA - 2024-02-14 - 21-00.xls  [Modo de compatibilid*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                                             <uix:TargetAnchorable.Anchors>
-                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                 <uix:Target CvTextArea="473, 230, 72, 14" CvTextArgument="VII avg G1" CvType="Text" DesignTimeRectangle="473, 228, 84, 20" FriendlyName="'Vll avg G1'" FullSelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' tableCol='3' tableRow='1' /&gt;" FuzzySelectorArgument="&lt;uia automationid='DATA INSTANTANEA - * - 21-00.xls' cls='ExcelGrid' name='DATA INSTANTANEA - * - 21-00' /&gt;&lt;uia automationid='Grid' name='Panel superior' role='cuadrícula de datos' /&gt;&lt;uia name='C1' role='elemento' automationid='' check:text='Vll avg G1' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                                                               </scg:List>
                                                             </uix:TargetAnchorable.Anchors>
@@ -7686,19 +7714,47 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
                               </Sequence>
+                              <Sequence DisplayName="Eliminando el Archivo Excel 21-00" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_820">
+                                <Sequence.Variables>
+                                  <Variable x:TypeArguments="x:Boolean" Name="existeExcel" />
+                                </Sequence.Variables>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[existeExcel]" sap:VirtualizedContainerService.HintSize="888,104" sap2010:WorkflowViewState.IdRef="PathExists_25" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaPosterior+&quot; - 21-00.xls&quot;]" PathType="File" />
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="888,90" sap2010:WorkflowViewState.IdRef="WriteLine_29" Text="[existeExcel.ToString]" />
+                                <If Condition="[existeExcel.Equals(True)]" sap:VirtualizedContainerService.HintSize="888,350" sap2010:WorkflowViewState.IdRef="If_27">
+                                  <If.Then>
+                                    <Sequence sap:VirtualizedContainerService.HintSize="376,168" sap2010:WorkflowViewState.IdRef="Sequence_823">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="334,80" sap2010:WorkflowViewState.IdRef="DeleteFileX_27" Path="[&quot;C:\Users\ccd\Documents\Ui Path\Robot8_EnviosAlCOES\Data\Archivos DATA INSTANTANEA\DATA INSTANTANEA - &quot;+fechaPosterior+&quot; - 21-00.xls&quot;]" />
+                                    </Sequence>
+                                  </If.Then>
+                                  <If.Else>
+                                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_824" />
+                                  </If.Else>
+                                </If>
+                              </Sequence>
                             </Sequence>
                           </Sequence>
                         </ui:IfElseIfBlock.Then>
                       </ui:IfElseIfBlock>
                       <ui:IfElseIfBlock BlockType="Else">
                         <ui:IfElseIfBlock.Then>
-                          <Sequence DisplayName="Mensaje fuera de Tiempo" sap:VirtualizedContainerService.HintSize="450,187" sap2010:WorkflowViewState.IdRef="Sequence_561">
+                          <Sequence DisplayName="Mensaje fuera de Tiempo" sap:VirtualizedContainerService.HintSize="450,186" sap2010:WorkflowViewState.IdRef="Sequence_561">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,76" sap2010:WorkflowViewState.IdRef="MessageBox_52" Text="[&quot;Usted esta fuera de Tiempo de Envio..!!&quot;]" />
+                            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,75" sap2010:WorkflowViewState.IdRef="MessageBox_52" Text="[&quot;Usted esta fuera de Tiempo de Envio..!!&quot;]" />
                           </Sequence>
                         </ui:IfElseIfBlock.Then>
                       </ui:IfElseIfBlock>
@@ -7726,7 +7782,7 @@
           </umab:GmailApplicationCard.ClientSecret>
         </umab:GmailApplicationCard>
       </Sequence>
-      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1297,53" sap2010:WorkflowViewState.IdRef="CommentOut_111">
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1297,52" sap2010:WorkflowViewState.IdRef="CommentOut_111">
         <ui:CommentOut.Body>
           <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="563,1571" sap2010:WorkflowViewState.IdRef="Sequence_589">
             <sap:WorkflowViewStateService.ViewState>
