@@ -12,6 +12,12 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "existeExcel&Sequence_816",
+        "existeExcel&Sequence_813",
+        "existeExcel&Sequence_810",
+        "existeExcel&Sequence_807",
+        "existeExcel&Sequence_804",
+        "existeExcel&Sequence_801",
         "passwordCoes&Sequence_346",
         "UserCoes&Sequence_346",
         "existeExcel&Sequence_616",
