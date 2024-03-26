@@ -1,0 +1,7 @@
+A la Hora {0}. El sistema de Iniciar Sesion a la Pagina de Mediciones al COES no ha sido encontrado.
+
+Por favor, haga el Procedimiento Manualmente desde Otro Navegador..!!
+
+
+Saludo cordial,
+Robot de Automatización de Datos al COES — EGEMSA.
